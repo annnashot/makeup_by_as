@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Zapisz się na seans</title>
+	</head>
+	<body>
+	<header>
+        <h1>Zapisz się na seans</h1>
+        
+		<nav>
+            <ul>
+                <li><a href="zaliczenie.html"><button type="button">Strona Glówna</button></a></li>
+				<li><a href="o.mnie.html"><button type="button">O mnie</button></a></li>
+                <li><a href="dane.kontaktowe.html"><button type="button">Dane kontaktowe</button></a></li>
+                <li><a href="moje.prace.html"><button type="button">Portfolio</button></a></li>
+                <li><a href="porady.wizażystki.html"><button type="button">Porady wizażystki</button></a></li>
+                <li><a href="Zapisz.się.na.seans.html"><button type="button">Zapisz się na seans</button></a></li>
+            </ul>
+        </nav>
+    </header>
+	 <section id="appointments">
+        <h2>Zapisz się na seans</h2>
+        <p>Jeśli chcesz umówić się na sesję wizażu, proszę podać swoje dane kontaktowe, a my skontaktujemy się z Tobą wkrótce.</p>
+
+        <form action="https://formspree.io/f/xleqdjvv" method="POST">
+            <label>
+               <p> Podaj email:
+                <input type="email" name="email">
+            </label></p>
+            <label>
+			<p>Podaj numer telefonu:
+			</label>
+			<input type="tel" name="phone" id="phone" pattern="[0-9]{9}" required>
+			</label></p>
+            <button type="submit">Wyślij kontakt</button>
+        </form>
+    </section>
+	<body>
